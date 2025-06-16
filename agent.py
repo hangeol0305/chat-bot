@@ -10,6 +10,7 @@ load_dotenv()
 # API KEYS
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+# test 1
 
 # LLM 구성
 openai_llm = ChatOpenAI(
